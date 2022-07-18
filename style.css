@@ -87,6 +87,8 @@ height: 50px;
 footer {
     background-color: chartreuse;
     margin-top: 264px;
+    position: absolute;
+    bottom: 0px;
 }
 
 /*Media Querrys*/
@@ -106,9 +108,5 @@ footer {
         background-image: url(images/bg-pattern-card.svg);
         background-repeat: no-repeat;
         background-color: white;
-    }
-    footer {
-        margin-top: 239px;
-        background-color: chartreuse;
     }
 }
